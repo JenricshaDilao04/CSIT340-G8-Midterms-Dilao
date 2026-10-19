@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   const [read, setRead] = useState(0);
@@ -27,7 +28,7 @@ function App() {
           <li className="border-l-4 border-[#C9996B] py-2 pl-4">Connect</li>
           <li className="border-l-4 border-[#C9996B] py-2 pl-4">Upload</li>
         </ul>
-        <p className="mt-auto text-xl">Written by YOUR NAME</p>
+        <p className="mt-auto text-xl">Written by Jenricsha Dilao</p>
       </nav>
 
       <div className="flex items-end justify-between px-20 pt-10">
