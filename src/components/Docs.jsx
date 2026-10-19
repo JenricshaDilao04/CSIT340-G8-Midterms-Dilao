@@ -1,4 +1,4 @@
-function Docs () {
+function Docs ({read, bookmarks, handleRead, handleBookmark, handleReset}) {
     return (
          <div className="flex items-end justify-between px-20 pt-10">
              <div>
